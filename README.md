@@ -1,7 +1,7 @@
-#### react-weui-scaffold
-## react-weui-scaffold
-## 基于react-weui构建react开发脚手架代码
-## 文章教程源码
+# 基于react-weui构建react开发脚手架代码
+
+简书地址：[https://www.jianshu.com/p/455d3e95c6ef](https://www.jianshu.com/p/455d3e95c6ef)
+
 
 
 最近看了很多文章，发现都没有很好的解释如何搭建react环境并使用react-weui，以及webpack打包运行中需要注意的问题点。下面我就基于当前react-weui 1.1.3版本做一个 全面的入门教程。
