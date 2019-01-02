@@ -2,15 +2,15 @@ const webpack = require('webpack');
 const path = require('path');
 const autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+//const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const nodeEnv = process.env.NODE_ENV || 'development';
+//const nodeEnv = process.env.NODE_ENV || 'development';
 const isProduction = process.argv.indexOf('-p') !== -1;
 //const isProduction = nodeEnv === 'production';
 
-const jsSourcePath = path.join(__dirname, 'world');
-const buildPath = path.join(__dirname, 'build/demo/world');
-const sourcePath = path.join(__dirname, 'world');
+const jsSourcePath = path.join(__dirname, 'ski');
+const buildPath = path.join(__dirname, 'build/ski');
+const sourcePath = path.join(__dirname, 'ski');
 
 // Common plugins
 const plugins = [
